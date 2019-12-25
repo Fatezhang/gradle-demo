@@ -13,7 +13,4 @@
   <a href="https://github.com/Fatezhang/scaffold-cloud-gradle/stargazers"><img alt="star" src="https://img.shields.io/github/stars/Fatezhang/scaffold-cloud-gradle.svg?label=Stars&style=social"/></a>
   <a href="https://github.com/Fatezhang/scaffold-cloud-gradle/network/members"><img alt="star" src="https://img.shields.io/github/forks/Fatezhang/scaffold-cloud-gradle.svg?label=Fork&style=social"/></a>
   <a href="https://github.com/Fatezhang/scaffold-cloud-gradle/watchers"><img alt="star" src="https://img.shields.io/github/watchers/Fatezhang/scaffold-cloud-gradle.svg?label=Watch&style=social"/></a>
-  <a href='https://gitee.com/chennianfenglou/scaffold-cloud-gradle/stargazers'>
-  	  <img src='https://gitee.com/chennianfenglou/scaffold-cloud-gradle/badge/star.svg?theme=white' alt='star'/>
-  	</a>
 </p>
