@@ -1,2 +1,7 @@
 rootProject.name = 'scaffold-cloud-gradle'
 include 'scaffold-core'
+include 'scaffold-business'
+include 'scaffold-business:scaffold-business-system'
+findProject(':scaffold-business:scaffold-business-system')?.name = 'scaffold-business-system'
+include 'scaffold-core:scaffold-core-common'
+findProject(':scaffold-core:scaffold-core-common')?.name = 'scaffold-core-common'

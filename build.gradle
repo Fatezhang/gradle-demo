@@ -14,7 +14,10 @@ subprojects {
     apply plugin: 'java-library'
 
     repositories {
-        maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        maven { url = 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url = 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url = "https://plugins.gradle.org/m2/" }
+        jcenter()
     }
 
     lombok {

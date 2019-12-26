@@ -1,0 +1,6 @@
+subprojects {
+    dependencies {
+        implementation project(":scaffold-core:scaffold-core-common")
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+    }
+}

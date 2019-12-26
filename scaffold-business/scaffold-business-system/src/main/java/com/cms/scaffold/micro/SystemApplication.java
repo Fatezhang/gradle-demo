@@ -1,11 +1,12 @@
-package com.cms.scaffold;
+package com.cms.scaffold.micro;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Scaffold {
+public class SystemApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Scaffold.class, args);
+        SpringApplication.run(SystemApplication.class, args);
     }
 }
