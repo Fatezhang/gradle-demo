@@ -1,7 +1,27 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.7.RELEASE'
+    id 'java'
+    id 'checkstyle'
+    id 'jacoco'
+}
+
 dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
-    implementation 'org.springframework:spring-context'
-    implementation 'javax.validation:validation-api'
+    api 'org.springframework:spring-context'
+    api 'javax.validation:validation-api'
+    api 'com.google.guava:guava:28.0-jre'
+    api 'commons-beanutils:commons-beanutils:1.9.4'
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'junit', module: 'junit'
+        exclude group: 'org.mockito', module: 'mockito-core'
+    }
+
+    testImplementation 'org.mockito:mockito-core:2.24.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.2.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+    testImplementation "org.testcontainers:junit-jupiter:1.12.3"
+    testImplementation 'org.mockito:mockito-junit-jupiter:3.1.0'
 }

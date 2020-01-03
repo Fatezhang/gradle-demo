@@ -1,6 +1,7 @@
 subprojects {
     dependencies {
-        implementation project(":scaffold-core:scaffold-core-common")
-        implementation 'org.springframework.boot:spring-boot-starter-web'
+        api project(":scaffold-core:scaffold-core-common")
+        api 'org.springframework.boot:spring-boot-starter-web'
+        api 'com.google.guava:guava:28.0-jre'
     }
 }
